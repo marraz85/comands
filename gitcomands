@@ -1,0 +1,42 @@
+	
+git config --global user.name "RAZMK MARDYAN"	Գիտհաբում քոնֆիգ ենք անում անունը
+git config --global user.email "marraz85@gmail.com"	Գիտհաբում քոնֆիգ ենք անում մեյլը
+git config -l	դիտել բոլոր քոնֆիգները 
+ls -la	դիրեկտորիայի դիտում 
+/home/myuser/.gitconfig	
+mkdir xxyyzz	դիրեկտորիայի ստեղծում
+cd xxyyzz 	որևէ դիրեկտորի մուք գործել
+git init .	բազայի ստեղծեոմ 
+git status	բազայում ինչ է կատարվում 
+echo "sourse file1" > file1.txt	ֆայլի ստեղծում 
+git add	հաստատում , * . բոլորը կամ ֆայլի անունը տվյալ ֆայլի համար snapshot kam snimok
+git commit -m "my initial commint , this is Ver1.0"	
+nano file1.txt	Ֆայլի ռոդակտոր
+git push 	լոկալից ռեմոտե ռեպոզիտորի փոխանցում
+git log 	բերում է բոլոր վերսիանների կոմենտները
+git log -x	բերում է  x քանակի կոմենտներ
+git log -x -p	x երեորդ փոփոխության բացվածքն է բերում  
+git checkout -- file.txt	փոփոխված file-երի չեղարկում//ընտրել
+cat file.txt	վերականգնում
+git diff --staged	ցույց է տալիս ներկայիս տարբերակի և փոփխության տարբերությունը
+cp	կոպյա անել
+nano .gitignor	այստեղ կարելի է գրել այն ֆայլերի ու դիրեկտորիաների անունները որոնք ուզում ենք իգնոռ անել
+git brach fifx_error	նոր բռենչի ստեղծում
+git brach -d fifx_error	նոր բռենչի ջնջում 
+git checkout -b raz_fix_error	միանգամից նոր բռենչի ստեղծում և ընտրում 
+type *\inddex.html	դիտել ֆաըլի ներսը
+git marge raz_fix_error	բռենչների միավորում 
+git chekout c999556120561561s1df1	վերադարձ հին քոմիթին պահպանելով նորը
+git chekout master 	վերադարձ ներկայիս քոմիթին
+git comite --amend	փոփել արդեն եղած քոմիթը
+git reset --hard HEAD~	վերադարձ մի քոմիթ հին տարբերակին ~ հետո ինչ թիվ գրենք այդքան հետ կգնա
+git reset --soft HEAD~x	x հատ քոմիթ ջնջում է բայց ֆայլերը պահպանում է վերջի քեմիթի մեջինը
+git branch	current branch
+git branch new_branch_name	creat new branch
+git checkout new_branch_name 	switch to main branch
+git diff first_branchsecond_branch	compare branches
+git merge branch_to_marge	merge brench
+git checkout -b new_branch_2	creating brench and switching
+git branch -d new_branch	delate branch/ must be in other branch before deleting/
+git push origin branch_name --delete	deleting branch on remote repo
+	
