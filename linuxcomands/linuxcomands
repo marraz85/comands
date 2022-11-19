@@ -1,0 +1,72 @@
+	gedit
+chmod +x	exucitble fayle u+x user +x all
+.bashrc	
+source 	apllaying config
+path	varieable
+alias	հրամանների վերագրում
+man 	հրամանի ինֆօ
+locate file	ֆայլի տեղադիրքը
+uname 	info about linux/ -a all info/
+rm 	ջնջել
+type	
+pwd	showing destination
+date 	
+touch	create file 
+mv	rename or move 
+cat	read the file
+tail	-10 օրինակ ցույց է տալիս վերջի 10 տողերը
+head	10 ցույց է տալիս վերեվի 10 տողը
+sudo apt list	ցույց ա տալիս ինստալլ արած ապտները
+| grep	exluding from file all lines including word
+>	nankjkjnnnd
+>>	add  write
+-a	all
+echo $PATH$	
+-y	buy defoult all yes
+df -h 	partition info
+fdisc -l	partition info
+ls -blk	partition info
+gparted	partition info
+etc/bashrc 	system wide config changes /or profile/
+~/.bashrc	user wide config changes  /or profile/
+ls -i	showing all files 
+	
+free 	-htw ram info
+ps	terminall processes /-ef all processes
+kill 	end process / killall pill all processes of program/
+top 	/like task maneger/ pres k and ente pid to kill 
+htop	alternative of top/ SHIFT >/
+pstree	
+wich 	wich cp showin path of comand
+sudo usermod -aG docker $USER	Դոկեռին յուզեռ մոդը փոխում ենք 
+chown 	փոխել ֆայլի տիրոջը chown student:student or user id (usernam:groupname)
+	-R will change all permisions of sub dirs and sub files
+id	userneri idner 
+tar cf folder asd.tar failename foldername	creating archive file
+tar tvf *.tar	showing includ tar
+gzip *.tat	zip
+	
+	
+	
+	
+	
+	
+	
+sudo service httpd start	
+chekconfig on 	
+vi	
+info 	--help
+apt	advanced packeg tool
+packeg dependencies	փակեիջները ինստալլ անելու համար կոպիտ ասած օգնող թուլեր
+	apt, apti, yaml հարց ոնց ենք գտնում որտեղ որը օգտագօրծեմ
+sudo apt update	մեր լինուքսի մեջ գոյություն ունեցող փակեիջներ ափդատ
+sudo apt upgrade	upgradeing installed packeges
+sudo apt remove 	unisnstalling packege
+sudo apt purge	unisnstalling packege and dapendencies 
+mirror list	?
+cat /etc/apt/sources.list	ռեպոների հասցեները
+dpkg	install downloaded packeg
+mkfifo	?
+sudo apt autoremove	deleting all incomplete uninstaled packegees 
+aptitude	packege manager
+	
