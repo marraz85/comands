@@ -37,4 +37,4 @@ git diff first_branchsecond_branch	compare branches
 git merge branch_to_marge	merge brench		
 git checkout -b new_branch_2	creating brench and switching		
 git branch -d new_branch	delate branch/ must be in other branch before deleting/		
-git push origin branch_name --delete	deleting branch on remote repo		
+git push origin branch_name --delete	deleting branch on remote repository		
